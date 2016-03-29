@@ -65,9 +65,9 @@
 					if(first)
 					{
 						first = false;
-						$doButtons.append('<button>Keep It</button>').click(function () {
+						$doButtons.append($('<button>Keep It</button>').on('click', function () {
 							document.cookie = "val=" + $next.html();
-						});
+						}));
 					}
 				}));
 			}
