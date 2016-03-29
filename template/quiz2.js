@@ -3,6 +3,7 @@
 	// Do not commit console.log statements
 	// Use ajax to reach the api endpoint
 	// Whether or not you use jQuery, you still have to fix the jQuery errors. Removing jQuery is not fixing the problem.
+	//Luke Kljucaric LEK70 3793943
 
 	$mouseover = $('.mouseover');
 	$click     = $('.click');
@@ -39,6 +40,8 @@
 			$timeout.fadeIn('slow');
 		}, 1000);
 	});
+
+	//hey matt I was in class
 
 	$title.on('click', function() {
 		$.ajax({
